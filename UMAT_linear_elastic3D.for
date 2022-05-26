@@ -1,7 +1,8 @@
-
+!-----------------This code was created thanks to Ronald Wagner - You can check this link for more information.
+!                       (https://www.youtube.com/watch?v=e12L0lm7aGQ&ab_channel=Dr.-Ing.RonaldWagner)
 !-----------------Start of Base code(UMAT_ISOTROP_3D), DO NOT CHANGE ANYTHING!!!---------
 
-	  SUBROUTINE UMAT(STRESS,STATEV,DDSDDE,SSE,SPD,SCD,
+      SUBROUTINE UMAT(STRESS,STATEV,DDSDDE,SSE,SPD,SCD,
      1 RPL,DDSDDT,DRPLDE,DRPLDT,
      2 STRAN,DSTRAN,TIME,DTIME,TEMP,DTEMP,PREDEF,DPRED,CMNAME,
      3 NDI,NSHR,NTENS,NSTATV,PROPS,NPROPS,COORDS,DROT,PNEWDT,
@@ -17,7 +18,7 @@
      3 PROPS(NPROPS),COORDS(3),DROT(3,3),DFGRD0(3,3),DFGRD1(3,3),
      4 JSTEP(4)
 !--------------------------------------------------------------------------------
-!---------It is at the END OF BASE CODE------------------------------------------
+!-----------------It is at the END OF BASE CODE----------------------------------
 
 !--------------------------------------------------------------------------------
 !--------------------------------------------------------------------------------
@@ -74,7 +75,7 @@
 		END DO
 		END DO
 !	
-!-------------End of USER code--------------------------------------------------
+!--------------End of USER code-------------------------------------------------
 !
 		RETURN
 		END
